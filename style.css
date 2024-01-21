@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 200px;
+  height: auto;
+  background-color: rgb(43, 41, 41);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-radius: 20px;
+}
+
+.common {
+  background-color: rgb(109, 109, 109);
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 0;
+  height: 40px;
+  color: rgba(224, 221, 221, 0.863);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  user-select: none;
+}
+
+.double-width {
+  grid-column: span 2;
+}
+
+#input {
+  grid-column: span 4;
+  height: 66px;
+  border: none;
+  font-size: 1.6rem;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0;
+  direction: rtl;
+  background-color: rgb(47, 45, 45);
+  color: white;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  padding-top: 20px;
+}
+
+.yellow {
+  background-color: hsla(36, 100%, 56%, 0.933);
+}
+
+.threeof {
+  background-color: rgb(77, 73, 73);
+}
+
+#zero {
+  border-bottom-left-radius: 7px;
+}
+
+#equal {
+  border-bottom-right-radius: 7px;
+}
+
+#AC,
+#seven,
+#four,
+#one,
+#zero,
+#input {
+  border-left: 1px solid black;
+}
+
+#input {
+  border-bottom: 1px solid black;
+}
